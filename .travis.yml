@@ -1,3 +1,15 @@
+env:
+  global:
+  - CONAN_USERNAME: bincrafters
+  - CONAN_LOGIN_USERNAME: rhololkeolke
+  - CONAN_CHANNEL: testing
+  - CONAN_UPLOAD: https://api.bintray.com/conan/rhololkeolke/public-conan
+  - CONAN_STABLE_BRANCH_PATTERN: stable/*
+  - CONAN_UPLOAD_ONLY_WHEN_STABLE: 1
+  - CONAN_ARCHS: x86_64
+  - CONAN_BUILD_POLICY: outdated
+  - CONAN_REMOTES: "https://api.bintray.com/conan/bincrafters/public-conan"
+  - secure: ftCghCZpMopCzxhVs0JTGAnBj5lkmw9gZXXE41W0+RBdXBHSb1RqH/VYss02kRTjd0FoKfvWunLGOdouytjzPO5VPCxU2EH2r+Zz7UaFgtuflnLwlizxJ+zOeawr0NS6RPTjhlgUIkDwbvOyiZJSJgrQWclv8j/O/TdEXEw4Ex2LxPc+n3zTViDgcLfBJTDLr/7U6YgY7YZqj4Si0E9zUdBs9Pq2u6/ZUoC1bG54OKEjx2qw/9CgknRm1WlhbwD8jDf7uLrWV0gWfHOO3VWRWoNTut553VWEBsF1WeSyzKWFVQPi7krjGzcQJoqVCY+JLdHPWBIn3NgFfIZ0SemoWR18wI8D2k/gjkpb0/jFsXrXja3oLcWE7561ysnNaTqgue9dTR8Eot6RYIIh4hX8/zdqtVJRxr0LY3f3loj9O+tdiyuTTlycMu51li7quav2IuR4QL9voPjzyNvpXw4O9ME7OkEctBydK3j06MZR//yWlos0gGDqhzm3WyObjmMG4HTtbdNLyx5ECegqi6kRNCQDtUF+vTEqcW4Ywg9hsRMraGo4+my4vX9qFYYwFvtMTBcCipEWUTjtgdgrarWdENjxoRhCveCINmxTCNgw686dgbSbnhLzNW3q1V1pT4smUDFd2MwwIbISpwTP9svDIl0yEYF/ZuEQJnhBFIh9LkQ=    
 linux: &linux
    os: linux
    sudo: required
